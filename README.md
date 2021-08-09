@@ -1,4 +1,16 @@
 # Spring-Boot
+
+**Install Packages**
+1. JDK(Java Development Kit) 1.11
+2. JRE (Java Runtime Environment)1.11
+3. Spring-Boot version (2.5.3) stable
+
+**OS**
+Linux(Ubuntu)
+
+**IDE**
+Eclipse
+
 **FirstApplicationInSpringBoot**
 
 In this I have created normal page in that my name is Printed Out only basic starter project of Spring-boot is there.
@@ -12,8 +24,10 @@ In this I have created normal page in that my name is Printed Out only basic sta
 "pom.xml" have all maven dependencies which we have added at the time of creating Starter-project.
 Dependencies: spring-boot-starter-web, spring-boot-starter-web-services , tomcat-jasper, spring-boot-starter-test, spring-boot-maven-plugin with their groupId and  artifactId
 
-Output:
-From "AppCongiguration.java" String hello() method return "Hello AKanksha" String to the web Page.
+**Output:**
+From "AppCongiguration.java" String hello() method return "Hello AKanksha" String and printing it on to the web Page.
+
+
 
 
 **SampleWebApp**
