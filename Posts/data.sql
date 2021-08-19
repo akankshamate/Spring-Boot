@@ -1,0 +1,11 @@
+insert into user values(10001,sysdate(),'Professor')
+insert into user values(10002,sysdate(),'Tokyo')
+insert into user values(10003,sysdate(),'Denver')
+insert into user values(10004,sysdate(),'Nairobi')
+insert into user values(10005,sysdate(),'Rio')
+insert into user values(10006,sysdate(),'Mosko')
+insert into user values(10007,sysdate(),'Raquel')
+
+insert into post values(10001,'My first post',10001)
+insert into post values(10002,'My Second post',10001)
+insert into post values(10003,'My third post',10001)
