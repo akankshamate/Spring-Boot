@@ -1,0 +1,11 @@
+
+Link:http://localhost:8100/currency-conversion/from/USD/to/INR/quantity/10
+
+
+Error:nested exception is java.net.ConnectException: Connection refused 
+(Connection refused)
+
+Solution:
+Make sure all your tests declared with same @SpringBootTest annotation 
+parameters. I had same issue because of different parameters in two tests. 
+Problem gone when I made all annotations same: @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT))
